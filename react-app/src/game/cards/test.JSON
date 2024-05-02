@@ -1,0 +1,6 @@
+{
+    "name": "Hello World",
+    "effectType": "dmg",
+    "effectValue": 4,
+    "flavorText": "The first card that I made! Testing purposes only"
+}
