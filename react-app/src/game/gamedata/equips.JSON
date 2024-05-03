@@ -1,0 +1,11 @@
+{
+    "equips": [
+        {
+            "name": "Test Equip",
+            "desc": "Test Equipment for testing purposes, gives player buffs and/or debuffs",
+            "equipType": "normal",
+            "equipEffects": ["actionPointGain", "dmgGain"],
+            "effectValues": [1, 1]
+        }
+    ]
+}
