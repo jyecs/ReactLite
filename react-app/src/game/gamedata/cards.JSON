@@ -1,6 +1,25 @@
 {
-    "name": "Hello World",
-    "effectType": "dmg",
-    "effectValue": 4,
-    "flavorText": "The first card that I made! Testing purposes only"
+    "cards": [
+        {
+            "name": "Hello World",
+            "effectType": "dmg",
+            "effectValue": 4,
+            "desc": "This should display the card description. All $value$ should be replaced with a dynamic value",
+            "flavorText": "First card, Testing purposes only"
+        },
+        {
+            "name": "Strike",
+            "effectType": "attack",
+            "effectValue": 4,
+            "desc": "Deals $value$ damage to target",
+            "flavorText": "The most standard of offensive cards"
+        },
+        {
+            "name": "Shield",
+            "effectType": "block",
+            "effectValue": 5,
+            "desc": "Gain $value$ block.",
+            "flavorText": "The most standard of defensive cards."
+        }
+    ]
 }
