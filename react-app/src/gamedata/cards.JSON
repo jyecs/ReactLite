@@ -2,22 +2,19 @@
     "cards": [
         {
             "name": "Hello World",
-            "effectTypes": ["dmg"],
-            "effectValues": [4],
+            "effect": {"dmg": 4, "shield": 4},
             "desc": "This should display the card description. All $value$ should be replaced with a dynamic value",
             "flavorText": "First card, Testing purposes only"
         },
         {
             "name": "Strike",
-            "effectTypes": ["dmg"],
-            "effectValues": [6],
+            "effect": {"dmg": 6},
             "desc": "Deals $value$ damage to target",
             "flavorText": "The most standard of offensive cards"
         },
         {
             "name": "Block",
-            "effectTypes": ["shield"],
-            "effectValues": [5],
+            "effect": {"shield": 5},
             "desc": "Gain $value$ block.",
             "flavorText": "The most standard of defensive cards."
         }
@@ -25,8 +22,7 @@
     "monsterCards": [
         {
             "name": "Monster Test Attack",
-            "effectTypes": ["dmg"],
-            "effectValues": [4]
+            "effect": {"dmg": 5}
         }
     ]
 }
