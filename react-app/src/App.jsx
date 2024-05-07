@@ -7,7 +7,6 @@ import Cardloader from "./game/cardloader"
 function App() {
   const [count, setCount] = useState(0)
   let cardLoader = Cardloader();
-  cardLoader.testCardLoad();
 
   return (
     <>
@@ -21,7 +20,7 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+        <button onClick={() => console.log(cardLoader.getCardData("Strike"))}>
           count is {count}
         </button>
         <p>
