@@ -18,11 +18,5 @@
             "desc": "Gain $value$ block.",
             "flavorText": "The most standard of defensive cards."
         }
-    ],
-    "monsterCards": [
-        {
-            "name": "Monster Test Attack",
-            "effect": {"dmg": 5}
-        }
     ]
 }

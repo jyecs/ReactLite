@@ -1,0 +1,8 @@
+{
+    "monsterCards": [
+        {
+            "name": "Monster Test Attack",
+            "effect": {"dmg": 5}
+        }
+    ]
+}

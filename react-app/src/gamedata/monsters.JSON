@@ -1,0 +1,12 @@
+{
+    "monsters" : [
+        {
+            "name" : "Dummy",
+            "targetting": "random",
+            "maxHp": 1000,
+            "moveset": ["Monster Test Attack"],
+            "tier": -1,
+            "openner": null
+        }
+    ]
+}
