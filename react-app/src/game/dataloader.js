@@ -15,10 +15,10 @@ export default function Dataloader() {
     }
 
     const loadMonsterCardData = () => {
-        fetch("./src/gamedata/mosntercards.JSON").then((resp) => {
+        fetch("./src/gamedata/monstercards.JSON").then((resp) => {
             return resp.json();
         }).then((data) => {
-            data.monsterCard.forEach((card) => {
+            data.monsterCards.forEach((card) => {
                 let {name, ...rest} = card;
                 monsterCardData.set(name, rest)
             })
@@ -48,5 +48,8 @@ export default function Dataloader() {
     loadCardData();
     loadMonsterCardData();
     loadMonsterData();
+
+    console.log(monsterCardData);
+    console.log(cardData);
     return { getCardData, peekCardData }
 }
