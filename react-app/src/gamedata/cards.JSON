@@ -20,7 +20,7 @@
             "name": "Block",
             "effectType": ["shield"],
             "effectValue": [5],
-            "effectTarget": ["seff"],
+            "effectTarget": ["self"],
             "desc": "Gain $value$ block.",
             "flavorText": "The most standard of defensive cards."
         }
